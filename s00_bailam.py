@@ -27,13 +27,13 @@ hi(None, None)        | Hi AI-BTX!
 #endregion debai
 
 #region bailam
-def hi(name, gener):
+def hi(name, gender):
   s='Hi'
   
-  if gener !=None:
-    if gener == 'f':
+  if gender !=None:
+    if gender == 'f':
       s=s+' Ms'
-    elif gener == 'm':
+    elif gender == 'm':
       s=s+' Mr'
       
   if name !=None:
